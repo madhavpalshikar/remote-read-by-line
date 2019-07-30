@@ -7,7 +7,7 @@ class RemoteReadByLine extends Emitter{
     constructor(settings = {}){
         super();
         this.url = settings.url ;
-        this.saveFilePath = settings.saveFilePath || "rrbl.txt";
+        this.saveFilePath = settings.saveFilePath || __dirname+"\\rrbl.txt";
     }
 
     readByLine(){
