@@ -1,0 +1,29 @@
+{
+  "name": "remote-read-by-line",
+  "version": "1.0.0",
+  "description": "Read remote files line by line using streams",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhavwrite/remote-read-by-line.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Read",
+    "file",
+    "remote",
+    "line",
+    "line by line",
+    "streams"
+  ],
+  "author": "Madhav Palshikar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhavwrite/remote-read-by-line/issues"
+  },
+  "homepage": "https://github.com/madhavwrite/remote-read-by-line#readme"
+}
