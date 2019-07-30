@@ -1,6 +1,6 @@
 {
   "name": "remote-read-by-line",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Read remote files line by line using streams",
   "main": "remote-read-by-line.js",
   "scripts": {
