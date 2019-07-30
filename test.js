@@ -1,4 +1,4 @@
-const RemoteReadByLine = require("./app.js");
+const RemoteReadByLine = require("./remote-read-by-line.js");
 let read = new RemoteReadByLine({url: "<REMOTE_FILE_URL>", saveFilePath: "demo.txt"});
 
 read.on("line",(line)=>{

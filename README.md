@@ -10,7 +10,7 @@ npm install remote-read-by-line
 # 1. Initialize
 Add package. Create object of RemoteReadByLine and pass remote file url to read. you can also pass saveFilePath if you want to save remote file. saveFilePath is optional
 ```js
-const RemoteReadByLine = require("./app.js");
+const RemoteReadByLine = require("remote-read-by-line");
 let read = new RemoteReadByLine({url: "<FILE-URL>", saveFilePath: "[OPTIONAL]"});
 ```
 

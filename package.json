@@ -1,8 +1,8 @@
 {
   "name": "remote-read-by-line",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read remote files line by line using streams",
-  "main": "app.js",
+  "main": "remote-read-by-line.js",
   "scripts": {
     "test": "npm start",
     "start": "node test.js"
