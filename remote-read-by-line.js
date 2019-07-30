@@ -1,5 +1,6 @@
 const fs = require("fs");
 const http = require("http");
+const https = require("https");
 const readline = require('readline');
 const Emitter = require('events').EventEmitter;
 
@@ -26,10 +27,15 @@ class RemoteReadByLine extends Emitter{
             });
         });
     
-    
-        http.get(this.url, response => {
-            response.pipe(file);
-        });
+        if(this.url.indexOf('https') > -1){
+            https.get(this.url, response => {
+                response.pipe(file);
+            });
+        }else{
+            http.get(this.url, response => {
+                response.pipe(file);
+            });
+        }
     }
 }
 
